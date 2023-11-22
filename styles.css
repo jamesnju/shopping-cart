@@ -1,0 +1,91 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    background-color: gainsboro;
+    overflow: scroll;
+    align-items: center;
+    gap: 2rem;
+}
+p{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+    text-decoration: underline;
+}
+.products  img{
+    padding: 10px;
+    width: 100%;
+    object-fit: contain;
+    height: 16rem;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    object-fit: cover;
+    width: 30rem;
+    height: 20rem;
+
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+.cart{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    border: 1px solid black;
+    height: 40vh;
+    width: 70%;
+    background-color: #fff;
+    align-items: center;
+    margin: 40px  auto;
+    
+}
+form{
+    margin: auto;
+    background-color: navy;
+    height: 70vh;
+    width: 70%;
+}
+.row img{
+    top: 20%;
+    height: 2rem;
+    width: 5rem;
+    object-fit: cover;
+}
+td{
+    margin-top: -12rem;
+    padding-left: 1rem;
+}
+.cartcontainer{
+    background-color: gainsboro;
+   
+}
+.row input{
+    width: 3rem;
+    outline: none;
+}
+.row th{
+    /* border: 2px solid red; */
+    text-decoration: underline;
+}
+.row button{
+    padding: 2px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.price{
+    color: red;
+}

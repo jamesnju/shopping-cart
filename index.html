@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <p>shopping cart</p>
+
+        <div class="products">
+            <img src="./img/Bajra4.jpg" alt="" class="prodictimage">
+            <div class="text">
+                <h2 class="title">Grains</h2>
+                <h2 class="amount">Ksh 10</h2>
+            </div>
+            <button class="btnadd">Add to cart</button>
+        </div>
+        <div class="products">
+            <img src="./img/banana.JPG" alt="" class="prodictimage">
+            <div class="text">
+                <h2 class="title">Banana</h2>
+                <h2 class="amount">Ksh 4000</h2>
+            </div>
+            <button class="btnadd">Add to cart</button>
+        </div>
+        <div class="products">
+            <img src="./img/apple.JPG" alt="" class="prodictimage">
+            <div class="text">
+                <h2 class="title">Apple</h2>
+                <h2 class="amount">Ksh 30</h2>
+            </div>
+            <button class="btnadd">Add to cart</button>
+        </div>
+        <div class="products">
+            <img src="./img/cabbage.jpg" alt="" class="prodictimage">
+            <div class="text">
+                <h2 class="title">Cabbage</h2>
+                <h2 class="amount">Ksh 40</h2>
+            </div>
+            <button class="btnadd">Add to cart</button>
+        </div>
+        <div class="products">
+            <img src="./img/chikoo.JPG" alt="" class="prodictimage">
+            <div class="text">
+                <h2 class="title">Chikoo</h2>
+                <h2 class="amount">Ksh 400</h2>
+            </div>
+            <button class="btnadd">Add to cart</button>
+        </div>
+        <div class="products">
+            <img src="./img/banner.jpg" alt="">
+            <div class="text">
+                <h2  class="title">Land</h2>
+                <h2 class="amount">Ksh 4000</h2>
+            </div>
+            <button class="btnadd">Add to cart</button>
+        </div>
+    </div>
+        <div class="cart">
+            <p>Cart</p>
+            <form action="">
+                <table class="row">   
+                        <thead>
+                            <tr>
+                                <th>title</th>
+                                <th>image</th>
+                                <th>price</th>
+                                <th>Quantity</th>
+                                <th>remove</th>
+                            </tr>
+                        </thead>
+                    <tbody class="cartcontainer">                    
+                        <tr class="cartitems">                      
+                            <td class="carttitle">Apple</td>
+                            <td><img src="./img/apple.JPG" alt=""></td>
+                            <td class="price">Ksh 400</td>
+                            <td><input type="number" id="quantitybutton" min="1"  value="1" class="quantity"></td>
+                            <td><button class="remove">remove</button></td>
+                            
+                        </tr>
+                        <tr class="cartitems">
+                            <td class="carttitle">Apple</td>
+                            <td><img src="./img/apple.JPG" alt=""></td>
+                            <td class="price">Ksh 400</td>
+                            <td><input type="number" id="quantitybutton" min="1" value="1" class="quantity"></td>
+                            <td><button class="remove">remove</button></td>                       
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+                <div class="pricetol">
+                    <h2 class="totalprice">Total/: Ksh 0</h2>
+                </div>
+                
+                <div class="price">
+                    <button>checkout</button>
+                </div>
+            
+        </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
